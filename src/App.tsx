@@ -1,9 +1,9 @@
 import './App.css'
+import { Markup } from './model/features/markupAchievement/ui/Markup'
 
 function App() {
-  return (
-    <div>
-    </div>
+  return (    
+      <Markup/>   
   )
 }
 
