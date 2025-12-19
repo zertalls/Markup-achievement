@@ -1,4 +1,22 @@
+.containerStyles {    
+    background-color: #0a61f7;
+}
+
 .ul {
     display: flex;
     gap: 24px;
+
+    /* FIGMA */
+    font-size: 12px;
+    /* line-height: 20px; */ 
+    line-height: 1.66667;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #fff;
 }
+
+.nav {
+    padding: 14px 0;
+}
+

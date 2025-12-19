@@ -6,16 +6,22 @@
 
 section {
     min-height: 100vh;
-    outline: 1px solid rgb(248, 8, 8);
-    
+
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+
+    outline: 1px solid rgb(248, 8, 8);    
 }
 
 .container {
     max-width: 1400px;
     width: 100%;
     height: 100%;
-    padding: 0 130px;
-    margin: 0 auto;
+    
+    padding: 0 130px; 
+    margin-bottom: 100px;   
+    
     outline: 1px solid rgb(95, 9, 255)
 }
 
@@ -31,10 +37,23 @@ section {
     color: #95a1bb;
 }
 
-nav {
-    background-color: #0a61f7;
+h1 {
+    /* FIGMA */
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 58px;
+
+    /* line-height: 68px; */ 
+    line-height: 1.17241;
+    color: #363940;
 }
 
 li {
     list-style: none;
+}
+
+button {
+    text-transform: uppercase;
+    text-align: center;  
+    border-radius: 4px;
 }
