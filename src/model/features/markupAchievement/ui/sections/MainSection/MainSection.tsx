@@ -8,7 +8,7 @@ import { FlexWrapper } from '../../../../../../common/components/Wrapper/FlexWra
 export const MainSection = () => {
     return (
         <div className="container"> 
-            <FlexWrapper gap={25}>
+            <FlexWrapper gap={25} >
                 <div>
                     <h1>Markup achievement</h1>                        
                     <p className={clsx('secondaryFont', styles.p)}>The harder you work for something, the greater you’ll feel when you achieve it.</p>

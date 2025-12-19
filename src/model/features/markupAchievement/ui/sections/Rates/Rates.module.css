@@ -1,0 +1,42 @@
+.h2 {
+    margin-bottom: 20px;
+}
+
+.p {
+    margin-bottom: 40px;
+}
+
+.button {
+    width: 140px;
+    height: 36px;
+    padding: 8px 36px;
+}
+
+.thMain {
+    font-size: 18px;
+    line-height: 1.22222;
+}
+
+.thSecondary {
+    font-size: 14px;
+    line-height: 1.57143;
+    text-align: left;   
+}
+
+
+
+.td {
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #363940;
+    text-align: left;   
+}
+
+.tdFooter {
+    font-size: 14px; 
+    line-height: 1.57143;
+    color: #0a61f7;
+    text-align: left;
+    padding: 37px 0 37px 20px;     
+}
+

@@ -1,0 +1,17 @@
+.active {
+    padding: 15px 25px;
+
+    font-size: 14px;
+    background-color: #0a61f7;
+    color: #fff;
+    
+}
+
+.notActive {
+    padding: 15px 25px;
+
+    font-size: 12px;
+    background-color: #fff;
+    color: #0a61f7;
+    border: 1px solid #0a61f7;
+}

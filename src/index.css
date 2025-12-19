@@ -38,6 +38,8 @@ section {
 }
 
 h1 {
+    margin: 102px 0 30px 0;
+
     /* FIGMA */
     font-family: "Rubik", sans-serif;
     font-weight: 500;
@@ -48,6 +50,18 @@ h1 {
     color: #363940;
 }
 
+h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+p {
+    /* FIGMA */
+    font-size: 16px;
+    line-height: 1.375;  
+}
+
 li {
     list-style: none;
 }
@@ -55,5 +69,18 @@ li {
 button {
     text-transform: uppercase;
     text-align: center;  
+    border: none;
     border-radius: 4px;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 940px;
+}
+
+td, th {
+    width: 240px;
+    border: 1px solid #95a1bb; 
+    padding: 20px; 
+    text-align: center;
 }
