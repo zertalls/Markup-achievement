@@ -8,7 +8,7 @@ import { Button } from "../../../../../../common/components/Button/Button";
 
 export const Rates = () => {
     return (
-        <div className={clsx('container')}>
+        <div className={clsx('container', styles.container)}>
             <FlexWrapper direction="column" justify="center" align="center">
                 <h2 className={styles.h2}>Rates</h2>
                 <p className={clsx('secondaryFont', styles.p)}>Failure will never overtake me if my determination to succeed is strong enough.</p>  

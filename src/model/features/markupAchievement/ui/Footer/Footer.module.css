@@ -1,0 +1,11 @@
+.containerBackground {
+    background-color: #0a61f7;
+}
+
+.footer {
+    font-size: 14px;
+    line-height: 1.57143;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+}

@@ -1,0 +1,38 @@
+.container {
+    padding: 100px 130px;
+}
+
+.h2 {
+    line-height: 1.25;
+    margin-bottom: 50px;
+}
+
+.p {
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.li {   
+    padding-left: 30px;
+    margin-bottom: 15px;
+
+    background-image: url('../../../../../../app/assets/icons/checkMark.svg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    
+    /* FIGMA */
+    font-size: 16px;
+    line-height: 1.375;
+    color: #363940;
+}
+
+.button {
+    width: 100%;
+}
+
+
+
+
+
+

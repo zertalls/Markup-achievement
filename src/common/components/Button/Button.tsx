@@ -5,11 +5,12 @@ type Props = {
     title: string
     isActive?: boolean
     classname?: string
+    type?: 'button' | 'reset' | 'submit'
 };
-export const Button = ({title, classname, isActive=true}: Props) => {
+export const Button = ({title, classname, isActive=true, type='button'}: Props) => {
     const mainStyles = isActive ? styles.active : styles.notActive 
 
     return (
-        <button className={clsx(mainStyles, classname)}>{title}</button>
+        <button type={type} className={clsx(mainStyles, classname)}>{title}</button>
     );
 };

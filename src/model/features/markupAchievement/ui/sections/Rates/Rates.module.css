@@ -1,3 +1,8 @@
+.container {
+    padding: 100px 130px;
+    border-color: #f9fafc;;
+}
+
 .h2 {
     margin-bottom: 20px;
 }

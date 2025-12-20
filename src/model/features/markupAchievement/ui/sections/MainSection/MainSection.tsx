@@ -7,7 +7,7 @@ import { FlexWrapper } from '../../../../../../common/components/Wrapper/FlexWra
 
 export const MainSection = () => {
     return (
-        <div className="container"> 
+        <div className={clsx('container', styles.container)}> 
             <FlexWrapper gap={25} >
                 <div>
                     <h1>Markup achievement</h1>                        
