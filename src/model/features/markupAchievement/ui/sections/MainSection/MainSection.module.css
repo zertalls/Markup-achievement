@@ -1,3 +1,7 @@
+.flexWrapperCustomStyles {
+    gap: 25
+}
+
 .container {
     padding-top: 162px;
 }
@@ -5,4 +9,39 @@
 .p {
     max-width: 380px;
     margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1300px) {        
+    .container {
+        padding-top: 100px;
+    }
+
+    h1 {        
+        margin: 0 0 30px 0;
+    }
+
+    .flexWrapperCustomStyles {
+        flex-direction: column;
+         gap: 80px;            
+    } 
+
+    .flexWrapperCustomStyles > :nth-child(2) {           
+        align-self: center;
+    } 
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding-top: 60px;
+    }
+
+    .flexWrapperCustomStyles {        
+         gap: 60px;            
+    } 
+
+    .img {
+        max-width: 675px;
+        height: auto;
+        width: 100%;
+    }
 }

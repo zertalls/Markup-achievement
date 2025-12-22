@@ -1,6 +1,12 @@
+.flexWrapperCustomStyles {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
-    padding: 100px 130px;
-    border-color: #f9fafc;;
+    padding-top: 100px;
+    background-color: #f9fafc;
 }
 
 .h2 {
@@ -28,8 +34,6 @@
     text-align: left;   
 }
 
-
-
 .td {
     font-size: 14px;
     line-height: 1.57143;
@@ -45,3 +49,22 @@
     padding: 37px 0 37px 20px;     
 }
 
+.tableContainer {
+    /* width: 100%; */
+}
+
+@media screen and (max-width: 1300px) {
+    .p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .tableContainer {
+       overflow-x: auto;       
+    }
+
+    .tableContainer > table {
+        min-width: 935px;
+    }
+}

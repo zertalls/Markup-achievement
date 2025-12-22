@@ -6,11 +6,11 @@ import { FlexWrapper } from "../../../../../../common/components/Wrapper/FlexWra
 export const CreateAccount = () => {
     return (
         <div className={clsx('container', styles.container)}>
-            <FlexWrapper justify="space-between"> 
+            <FlexWrapper className={styles.flexWrapperCustomStyles}> 
                 <div>
                     <h2 className={clsx(styles.h2)}>Create your free account</h2>
                     <p className={clsx('secondaryFont', styles.p)}>Let us first talk about dreams. We all know that dreams do play a role in our daily lives. The majority of people pay little attention to dreams. Dreams can help us find solutions to our daily problems and see things from a different perspective. Whenever we are dreaming, we can be who or what we want to be, regardless of the fact that in real life.</p> 
-                    <ul className={clsx("secondaryFont")}>
+                    <ul className={clsx(styles.ul, "secondaryFont")}>
                         <li className={styles.li}>Easy setup, fast start</li>
                         <li className={styles.li}>Free forever for core features</li>
                         <li className={styles.li}>14-day trial of premium features</li>
@@ -18,11 +18,11 @@ export const CreateAccount = () => {
                 </div>
                 <form className={clsx('secondaryFont', styles.form)}>
                     <input type="text" placeholder="Full Name*"/>
-                    <FlexWrapper gap={20}>
+                    <FlexWrapper className={styles.flexWrapperInputGroup}>
                         <input type="email" placeholder="Email*"/>
                         <input type="password" placeholder="Password*"/>
                     </FlexWrapper>
-                    <FlexWrapper gap={20}>
+                    <FlexWrapper className={styles.flexWrapperInputGroup}>
                         <input type="date" placeholder="Date of Birth"/>
                         <select>
                             <option>Country</option>
@@ -30,7 +30,7 @@ export const CreateAccount = () => {
                             <option>Belarus</option>
                         </select>
                     </FlexWrapper>
-                    <FlexWrapper gap={30}>
+                    <FlexWrapper className={styles.flexWrapperIndentTwo}>
                         <label><input type="radio"/>Frontend</label>                   
                         <label><input type="radio"/>Backend</label>
                     </FlexWrapper>

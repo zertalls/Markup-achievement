@@ -8,15 +8,14 @@ import { FlexWrapper } from '../../../../../../common/components/Wrapper/FlexWra
 export const MainSection = () => {
     return (
         <div className={clsx('container', styles.container)}> 
-            <FlexWrapper gap={25} >
+            <FlexWrapper className={styles.flexWrapperCustomStyles}>
                 <div>
                     <h1>Markup achievement</h1>                        
                     <p className={clsx('secondaryFont', styles.p)}>The harder you work for something, the greater you’ll feel when you achieve it.</p>
                     <Button title='Learn More'/>
-                </div> 
-                <ImageCustom src={mainImage} alt='main image' widthPx='656' heightPx='650'/>
+                </div>                 
+                <ImageCustom src={mainImage} alt='main image' widthPx='656' heightPx='650'className={styles.img}/> 
             </FlexWrapper> 
-
         </div>
     );
 };

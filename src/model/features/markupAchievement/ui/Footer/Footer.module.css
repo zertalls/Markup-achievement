@@ -1,4 +1,5 @@
-.containerBackground {
+.container {
+    margin-top: 100px;
     background-color: #0a61f7;
 }
 
