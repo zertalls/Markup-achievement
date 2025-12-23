@@ -78,7 +78,7 @@ button {
 
 table {
     border-collapse: collapse;     
-    width: 940px;
+    /* width: 940px; */
 }
 
 td, th {

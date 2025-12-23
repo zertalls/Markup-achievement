@@ -50,7 +50,11 @@
 }
 
 .tableContainer {
-    /* width: 100%; */
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1300px) {
@@ -60,11 +64,13 @@
 }
 
 @media screen and (max-width: 1000px) {
-    .tableContainer {
-       overflow-x: auto;       
+    table {
+        width: 940px;
     }
 
-    .tableContainer > table {
-        min-width: 935px;
-    }
+    .tableContainer {
+       overflow-x: auto;     
+       width: 100%;  
+       max-width: 940px;
+    }    
 }
